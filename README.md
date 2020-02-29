@@ -10,8 +10,8 @@ So note the recursive structure here, upon which this algorithm relies. Note tha
 Note that this algorithm was tested for a few cases against the existing algorithm in the Python math library, which is used like this, for example:  
 ```
 >>> import math
->>> math.gcd(24654, 7868)
-14
+>>> math.gcd(35, 21)
+7
 ```
 
 A typical output from our own C# (.NET) implementation of Euclid's algorithm looks something like this:
