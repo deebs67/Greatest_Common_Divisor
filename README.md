@@ -13,3 +13,27 @@ Note that this algorithm was tested for a few cases against the existing algorit
 >>> math.gcd(24654, 7868)
 14
 ```
+
+A typical output from our own C# (.NET) implementation of Euclid's algorithm looks something like this:
+```
+Euclid's algorithm for calculating the Greatest Common Divisor (GCD) of two integers
+====================================================================================
+Enter first integer:
+35
+The first integer you chose was: 35
+
+Enter second integer:
+21
+The second integer you chose was: 21
+
+We will now execute the recursive steps of Euclid's GCD algorithm...
+a = 35, b = 21
+a = 14, b = 21
+a = 7, b = 14
+a = 7, b = 7
+a and b are now equal, with a value of 7
+
+The Greatest Common Divisor of 35 and 21 is 7
+
+Press any key to exit...
+```
