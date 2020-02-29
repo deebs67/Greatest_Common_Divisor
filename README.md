@@ -7,7 +7,7 @@ _"It can be used to reduce fractions to their simplest form, and is a part of ma
 
 So note the recursive structure here, upon which this algorithm relies. Note that if a and b are large and very different then it can lead to too many steps of recursion, and so it will 'smash the stack' during the programme run, and lead to a stack exception. If you have this problem, then you probably need to investigate more efficient GCD algorithms, which do exist.
 
-Note that this algorithm was tested for a few cases against the existing algorithm in the Python math library, which is used like this:  
+Note that this algorithm was tested for a few cases against the existing algorithm in the Python math library, which is used like this, for example:  
 ```
 >>> import math
 >>> math.gcd(24654, 7868)
