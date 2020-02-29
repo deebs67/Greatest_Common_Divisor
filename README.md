@@ -37,3 +37,8 @@ The Greatest Common Divisor of 35 and 21 is 7
 
 Press any key to exit...
 ```
+
+Note that the two user inputs to this algorithm must be non-zero positive integers. The program doesn't do any error checking that this is in fact the case.  
+
+
+
